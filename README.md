@@ -1,3 +1,5 @@
+Please make sure you have folder "cwicz_1" with the program and layouts (cor.cif etc) on your Desktop.
+
 To run tests in auto mode open terminal and go to the folder with a file
 "test_alg.sh".
 Type:
