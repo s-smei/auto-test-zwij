@@ -30,6 +30,11 @@ Then type following:
 ```bash
 python3 path/to/plot_file.py path/to/files/*.txt
 ```
+or
+```bash
+python3 /path/to/plot_file_trend.py path/to/files/*.txt
+```
+if you also want to draw trend lines.  
 On some Macs, you need to exchange `python` for `python3`
 
 Then I recommend you to use:
