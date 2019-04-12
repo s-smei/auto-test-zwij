@@ -21,12 +21,15 @@ at the beginning.
 To convert the output into plot use the file "plot_file.py".
 
 I recommend you run it from terminal. You would need python3 and matplotlib.
-To install matplotlib type in virtualenv activated (wthich is optional):
+To configure python3 file enter the following in terminal:
 ```bash
-pip3 install -r requirements.txt
+python3 venv venv
+. venv/bin/activate
+pip install -r requirements.txt
 ```
 
-Then type following:
+You can process at the same time output from different layouts. It will auto deduce them and group together by layout name.
+To make it type the following:
 ```bash
 python3 path/to/plot_file.py path/to/files/*.txt
 ```
@@ -34,7 +37,7 @@ or
 ```bash
 python3 /path/to/plot_file_trend.py path/to/files/*.txt
 ```
-if you also want to draw trend lines.  
+if you also want to draw trend lines.
 On some Macs, you need to exchange `python` for `python3`
 
 Then I recommend you to use:
